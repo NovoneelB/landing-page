@@ -99,8 +99,8 @@ header {
 .container3 {
     display: flex;
     height: 400px;
-    background-color: #e5e7eb;
-    border-color: #e5e7eb;  
+    background-color: white;
+    border-color: white;  
 }
 
 .info-parent {
@@ -122,17 +122,6 @@ header {
     margin-bottom: 50px;
 }
 
-/* .class {
-    display: flex;
-    margin-right: 400px;
-    margin-left: 400px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-} */
-
 .title2 {
     display: flex;
     font: roboto;
@@ -144,4 +133,30 @@ header {
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
+}
+
+/* quote container4 */ 
+.container4 {
+    display: flex;
+    flex-direction: column;
+    border: 300px;
+    padding: 200px;
+    background-color: #E5E7EB;
+} 
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    max-height: 300px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    max-height: 300px;
+    margin: 0px; 
+    justify-content: flex-start;
+    align-items: flex-end;
 }
