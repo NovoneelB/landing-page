@@ -160,3 +160,55 @@ header {
     justify-content: flex-start;
     align-items: flex-end;
 }
+
+/* action container5 */
+.container5 {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 8px;
+}
+
+.button2 {
+    display: flex;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    /*border: none; cancelled code*/
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    margin: 0px;
+    padding: 100px;
+}
+
+.call {
+    font: roboto;
+    font-size: 24px;
+    color: #F9FAF8;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.sign {
+    font: roboto;
+    font-size: 14px;
+    color: #F9FAF8;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* footer */
+.container6 {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
